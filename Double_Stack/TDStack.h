@@ -9,8 +9,8 @@ class TDStack {
 protected:
 	T* pMem;
 	int size;
-	int	pos1;//указатели в виде полуинтервалов
-	int pos2;//указывают на элемент следующий за последним
+	int	pos1;//
+	int pos2;//pointers as half-intervals
 
 public:
 	TDStack(int _size = 100) :size(_size), pos1(0),pos2(_size-1){
